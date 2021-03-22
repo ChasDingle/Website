@@ -1,0 +1,140 @@
+<html>
+<title>Home</title>
+
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+<style>img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}</style>
+
+<head></head>
+
+<!-- -->
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="Index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="sdg.html">SDG</a></li>
+  <li><a href="sdg6.html">Progress</a></li>
+
+  <li><a href="T-I.html">Targets and Indicators</a></li>
+
+
+
+
+</ul>
+</div>
+  <script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+    </body>
+<span onclick="openNav()"><img class="sticky" src="E_SDG_logo_UN_emblem_horizontal_trans_PRINT.png" height="200"/></span>
+
+<!-- Add all page content inside this div-->
+
+<div id="main">
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+
+</div>
+
+
+
+<p>SDG</p>
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: dimgrey;
+  padding: 30px;
+  text-align: center;
+}
+.header {
+  background-color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+}
+
+}
+
+.content {
+  padding: 16px;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+<p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p><p>a</p>
+<div class="top-container">
+<h1>Welcome</h1>
+
+
+
+ <p>To commence your journey just click on the UN logo.</p>
+</div>
+<div class="content">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
